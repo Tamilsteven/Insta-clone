@@ -1,0 +1,240 @@
+
+ .navbar{
+    position:fixed;
+    width: 100%;
+    background-color:black;
+    
+ }
+ 
+ .navbar-brand{
+    color: white;
+ }
+ .navbar-brand:hover{
+    color: white;
+    cursor: pointer;
+ }
+ .navbar-toggler{
+    background-color: white;
+    color: white;
+ }
+ .body{
+   height: 100vh;
+    background-color: black;
+    overflow: hidden;
+ }
+ /* Custom CSS for the sidebar */
+.sidebar {
+   height: 100vh; /* Make the sidebar full height */
+   width: 250px;
+   position:fixed;
+   margin-top: 4%;
+   padding-top: 2%;
+   left: 0; 
+   background-color:black;
+   color: #fff;
+ }
+ 
+ .sidebar ul {
+   list-style-type: none;
+   padding-left: 0;
+   
+ }
+ 
+ .sidebar .nav-link {
+   color: #ccc;
+   margin: 7px;
+   font-size: 1.5em;
+   
+   
+ }
+ 
+ .sidebar .nav-link.active {
+   color: #fff;
+   font-weight: bold;
+ }
+ .icon{
+   margin-top: -4px;
+ }
+#chat{
+   height: 22px;
+   width: 22px;
+}
+
+#photo{
+   object-fit:fill;
+   border-radius: 100%;
+   height: 25px;
+   width: 25px;
+   
+}
+.menu-icon {
+   display: inline-block;
+   cursor: pointer;
+   margin: 25px;
+   padding-top:30px;
+}
+
+.bar {
+   width: 20px;
+   height: 2px;
+   background-color:white;
+   margin: 6px 0;
+}
+#more{
+   margin-left: -14%;
+   padding-top: 50px;
+}
+.section-1{
+   position:sticky;
+   padding-top: 5%;
+   display:grid;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+   
+   
+}
+.feed{
+     display: inline-flex;
+}
+p{
+   color: white;
+   text-align: center;
+   font-size: 0.6em;   
+}
+
+#story{
+   position:static;
+   object-fit:cover;
+   border-radius: 100%;
+   margin-left: 20px;
+   height: 40px;
+   width: 40px;
+   border: 1px solid rgb(247, 78, 36);
+}
+.image{
+   padding-top: 2%;
+}
+#insta-profile{
+   object-fit:cover;
+   border-radius: 100%;
+   margin-left: 20px;
+   height: 40px;
+   width: 40px;
+   border: 1px solid rgb(247, 78, 36);
+}
+.section-2{
+   display: flex;
+   margin-left: 35%;  
+   
+}
+.insta{
+   border: 0.1px solid rgb(29, 29, 29);
+   /* position: relative; */
+   padding-top: 2%;
+   height: 95vh;
+   width: 50%;
+   background-color:black;
+   display:flex;
+   gap: 5px;
+   /* justify-content: space-between; */
+  
+ 
+}
+.para{
+   position: relative;
+   display: grid;
+   flex-direction: column;
+   margin: 3%;
+   padding: 2px;
+}
+.dot{
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin-left: 42vh;
+}
+.cards{
+   padding-top: 13%;
+   color:white;
+}
+#yeni{
+   height: 60vh;
+   width: 45vh;
+   object-fit:cover;
+   margin: 10px -32% ;
+   /* margin-left: -30%; */
+}
+#sound{
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 50px;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 73%;
+  margin-top: -10%;
+}
+.like{
+   position: relative;
+   display: flex;
+   margin-left: -29%;
+   gap: 7px;
+
+}
+.book{
+   margin-left: 150px;
+}
+article{
+   margin-left: 75%;
+   margin-top:-93vh;
+   gap: 10px;
+}
+.card-body{
+   display:inline-flex;
+   padding-top: -10%;
+   gap: 10px;
+}
+.switch{
+   position: absolute;
+  font-size: 0.7rem;
+  margin-left: 115px;
+  
+}
+.suggested{
+   display: flex;
+   margin-left: -15vh;
+   justify-content: space-evenly;
+}
+.final{
+   margin-left: 10%;
+}
+.abt{
+   font-size: 0.7rem;
+   font-weight: 600;
+}
+h6{
+   font-size: 0.6em;
+}
+.add{
+   margin-left: -12vh;
+}
+.inpt{
+   width: 100%;
+   height: 30px;
+   background-color: transparent;
+   outline: none;
+   border: 0.1px solid rgb(29, 29, 29);
+   color: white;
+   overflow: hidden;
+   margin-left: -9.5vh;
+   font-size: 0.8em;
+   padding-left: 40%;
+   margin-top: -7%;
+   border-radius: 3px;
+}
+#send img{
+  margin-left: 5px;
+height: 24px;
+width: 24px;
+}
